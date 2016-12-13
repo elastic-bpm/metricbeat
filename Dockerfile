@@ -19,4 +19,6 @@ WORKDIR /metricbeat
 ADD start.sh /metricbeat/start.sh
 ADD metricbeat.yml /metricbeat/metricbeat.yml
 
+RUN chmod +x /metricbeat/start.sh
+
 CMD /metricbeat/start.sh
