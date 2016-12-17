@@ -26,7 +26,7 @@ metricbeat.modules:
     - diskio
 
     # Per filesystem stats
-    - filesystem
+    #- filesystem
 
     # File system summary stats
     - fsstat
