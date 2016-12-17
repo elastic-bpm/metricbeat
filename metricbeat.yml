@@ -38,10 +38,10 @@ metricbeat.modules:
     - network
 
     # Per process stats
-    - process
+    #- process
   enabled: true
   period: 10s
-  processes: ['.*']
+  #processes: ['.*']
 
 
 
